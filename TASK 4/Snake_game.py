@@ -1,4 +1,4 @@
-
+#pip install pygame should be used if don't have one
 
 import pygame
 import time
