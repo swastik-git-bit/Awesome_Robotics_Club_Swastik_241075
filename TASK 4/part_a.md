@@ -2,7 +2,7 @@ part A:
 Design Approach
 The robot is a 3RPS parallel manipulator. This is essentially a 3DOF platform with 3 legs each having a rotational joint and a spherical joint. Extending or contracting each leg will result in the platform being angled in a different way. This is done by each stepper motor. My biggest considerations when designing the balancer was to have sleekness and simplicity. For sleekness, I ensured that the electronics and most of the wires were well hidden. For simplicity, I decided to use 3 motors (3DOF) rather than the 6 motors (6DOF) used in version 1. Weighing the cost-benefits, I also chose not to use position encoders with the stepper motors. Using encoders would only eliminate the need to have the machine start at a common position. Without them, you simply just have to push the platform down every time.
 
-Electronics ($400)
+Electronics 
 
  digital servo (x6)
 Teensy 4.1
